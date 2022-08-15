@@ -6,22 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="./js/script.js" ></script>
-    <title>Tic Tac Toe</title>
+    <title>Tic-Tac-Toe</title>
 </head>
 <body>
-    <h1>Tic-Tac-Toe</h1>
-  	<div id="grid">
-      <div></div>
-      <div></div>
-      <div></div>
+    <!-- Title/Header -->
+    <h1 class="title"><span class="red">T</span>ic-<span class="red">T</span>ac-<span class="red">T</span><span class="blue">o</span>e</h1>
+    <!-- Grid -->
+  	<div id="grid" class="board x">
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
 
-      <div></div>
-      <div></div>
-      <div></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
 
-      <div></div>
-      <div></div>
-      <div></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
+        <div class="cell" ></div>
   	</div>
+    <!-- Restart button -->
+    <div id="restart">
+        <button id="btn">Restart</button>
+    </div>
 </body>
 </html>
